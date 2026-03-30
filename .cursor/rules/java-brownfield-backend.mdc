@@ -1,0 +1,49 @@
+---
+description: Java 后端棕地项目规则 — 约束 AI 在 Java/Spring Boot 后端的实现行为
+globs:
+  - "**/*.java"
+  - "**/pom.xml"
+  - "**/application*.yml"
+  - "**/application*.yaml"
+  - "**/application*.properties"
+---
+
+# Java 后端棕地规则
+
+## 分层约束
+
+1. 必须遵循现有 Controller → Service → ServiceImpl → Mapper 分层，不引入新的抽象层。
+2. Controller 只做参数接收、校验和返回，不放业务逻辑。
+3. Service 接口定义业务方法，ServiceImpl 实现业务逻辑。
+4. Mapper 只做数据库操作，不放业务判断。
+
+## 返回体与异常
+
+1. 所有接口返回必须使用项目已有的统一返回体（如 `Response<T>`），不允许使用 `ResponseEntity` 或自定义新返回结构。
+2. 业务异常必须使用项目已有的异常类（如 `ServiceException`），不允许另造异常体系。
+3. 参数校验优先使用项目已有的校验方式（如 `@Validated` + 校验注解）。
+
+## 租户与权限
+
+1. 涉及数据查询和操作时，必须确认是否需要租户隔离（`tenant_id` 过滤）。
+2. 新增接口必须确认是否需要接入权限校验，不允许默认跳过。
+3. 租户和权限逻辑优先复用现有拦截器或 AOP，不允许在业务代码中硬编码。
+
+## 数据库
+
+1. 新增表和字段必须沿用现有命名规范（如 `t_` 前缀、`snake_case`）。
+2. Migration 脚本必须沿用现有迁移工具和文件命名方式。
+3. 新增表必须包含 `tenant_id`、`create_time`、`update_time`、`create_by`、`update_by`、`deleted` 等项目通用字段。
+
+## 复用优先
+
+1. 分页查询优先使用现有分页组件（如 PageHelper）。
+2. 导出功能优先复用现有导出工具（如 EasyExcel + 项目导出工具类），不允许另造导出方案。
+3. 字典、枚举、主数据查询优先复用现有服务接口。
+
+## 测试
+
+1. 新增接口必须有对应的单元测试，覆盖 happy path 和关键异常场景。
+2. 测试风格沿用项目现有模式（如 JUnit 5 + Mockito）。
+3. 必须包含租户隔离和权限相关的测试场景。
+
