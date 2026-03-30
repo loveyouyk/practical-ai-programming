@@ -104,7 +104,10 @@
 11. `execution/BROWNFIELD-CHANGE-UPDATE-WORKFLOW.md`
     定位：需求变更回写流程。
 
-12. `.cursor/rules/*.mdc`
+12. `execution/AI-ADOPTION-METRICS-GUIDE.md`
+    定位：推广落地效果度量指南。
+
+13. `.cursor/rules/*.mdc`
     定位：项目规则基线。
 
 13. `openspec/changes/project-management/`
