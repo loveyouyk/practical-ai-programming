@@ -97,9 +97,49 @@ AI 工具不能替代这些基础工程能力。
 
 ---
 
-## 4. `/opsx-*` 的建议 fallback
+## 4. `@openspec-ff-change` 说明与 fallback
 
-## 4.1 `/opsx-explore`
+### 4.1 它是什么
+
+`@openspec-ff-change` 是 OpenSpec 工具链提供的快速生成命令，用于在 AI IDE（如 Cursor）中一次性生成 `proposal.md`、`spec.md`、`design.md`、`tasks.md` 四份 OpenSpec change 文档。
+
+它的本质是一个预定义的提示词模板 + 目录结构生成器，不是一个独立的命令行工具。
+
+### 4.2 在什么环境可用
+
+1. **理想环境：** 当前 IDE 已安装 OpenSpec 插件或集成了 `@openspec-ff-change` 命令 → 直接使用
+2. **半可用环境：** IDE 有 AI 对话能力但没有 OpenSpec 插件 → 使用 fallback
+3. **受限环境：** 只有文本编辑器和终端 → 使用 fallback
+
+### 4.3 fallback
+
+如果 `@openspec-ff-change` 不可用，按以下步骤手动执行：
+
+1. 在项目中创建 `openspec/changes/<change-name>/` 目录
+2. 创建 `.openspec.yaml` 文件，写入 change 名称和 capability
+3. 创建 `proposal.md`，按模板填写 Why / What Changes / Scope / Impact / Risks
+4. 创建 `specs/<capability-name>/spec.md`，按模板填写 Requirements 和 Scenarios
+5. 创建 `design.md`，按模板填写 Context / Decisions / API Contract / Data Model / Compatibility
+6. 创建 `tasks.md`，按模板填写分组任务
+
+模板参考：
+
+- L 级完整示例：`openspec/changes/project-management/`
+- M 级最小示例：`execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+
+### 4.4 M 级快车道中的替代话术
+
+如果 `@openspec-ff-change` 不可用，M 级起手话术改为：
+
+```text
+这是一个 M 级需求。请先基于当前项目规则基线做最小探索，再按 OpenSpec 格式生成 proposal/spec/design/tasks 四份文档。参考 execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md 的骨架。生成后停下，等待我审批。
+```
+
+---
+
+## 5. `/opsx-*` 的建议 fallback
+
+## 5.1 `/opsx-explore`
 
 ### 理想方式
 
@@ -120,7 +160,7 @@ AI 工具不能替代这些基础工程能力。
 2. 至少一条调用链或引用链
 3. 不确定项明确标注为 `待确认`
 
-## 4.2 `/opsx-verify`
+## 5.2 `/opsx-verify`
 
 ### 理想方式
 
@@ -147,7 +187,7 @@ AI 工具不能替代这些基础工程能力。
 2. 交付模板
 3. PR 描述
 
-## 4.3 `/opsx-sync`
+## 5.3 `/opsx-sync`
 
 ### 理想方式
 
@@ -163,7 +203,7 @@ AI 工具不能替代这些基础工程能力。
 
 在未确认稳定前，不要假装“已经 sync”。
 
-## 4.4 `/opsx-archive`
+## 5.4 `/opsx-archive`
 
 ### 理想方式
 
@@ -182,9 +222,9 @@ AI 工具不能替代这些基础工程能力。
 
 ---
 
-## 5. Superpowers 的建议 fallback
+## 6. Superpowers 的建议 fallback
 
-## 5.1 `brainstorming`
+## 6.1 `brainstorming`
 
 ### fallback
 
@@ -197,7 +237,7 @@ AI 工具不能替代这些基础工程能力。
 5. 兼容性约束
 6. 发布与回滚要求
 
-## 5.2 `writing-plans`
+## 6.2 `writing-plans`
 
 ### fallback
 
@@ -208,7 +248,7 @@ AI 工具不能替代这些基础工程能力。
 3. 测试与验证动作
 4. 关键风险
 
-## 5.3 `subagent-driven-development`
+## 6.3 `subagent-driven-development`
 
 ### fallback
 
@@ -222,7 +262,7 @@ AI 工具不能替代这些基础工程能力。
 
 ---
 
-## 6. 哪些地方不能只靠 AI
+## 7. 哪些地方不能只靠 AI
 
 下面这些动作，不应假装“AI 说通过就算通过”：
 
@@ -242,7 +282,7 @@ AI 工具不能替代这些基础工程能力。
 
 ---
 
-## 7. 建议的最小可执行门禁
+## 8. 建议的最小可执行门禁
 
 即使工具不可用，最少也要做到：
 
@@ -258,7 +298,7 @@ AI 工具不能替代这些基础工程能力。
 
 ---
 
-## 8. 一句话总结
+## 9. 一句话总结
 
 > `/opsx-*` 和 Superpowers 是强能力，但不是魔法。真正可推广的流程，必须在工具可用时高效执行，在工具不可用时仍然能被人工降级执行。  
 

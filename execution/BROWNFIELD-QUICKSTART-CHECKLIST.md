@@ -14,6 +14,10 @@
 3. 你接受一个原则：
    - 先理解现状，再设计，再实现。
 
+### M 级快车道说明
+
+如果当前需求已判定为 `M-Medium`，步骤 1-3（巡查项目 → 提炼规则 → 固化 rules）可以合并为一步执行：**巡查并提炼规则**，产出物直接是 `.cursor/rules` 文件 + 巡查摘要 + QUIRK 登记。不需要严格按三步串行。步骤 1-3 的三步串行保留给 `L / High Risk` 需求。
+
 如果你不确定当前环境是否能直接使用 `/opsx-*` 或 Superpowers，请先看：
 
 - `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`

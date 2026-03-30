@@ -167,6 +167,19 @@ The backend reuses the existing Controller / Service / Repository layering, vali
 
 ---
 
+## 7.5 Pending Confirmations（最小示例也必须有）
+
+即使是 M 级最小 OpenSpec，也建议显式列出待确认项。不列待确认项容易导致开发者拍脑袋决策。
+
+```md
+## Pending Confirmations
+
+1. `groupCode` 唯一性约束是全局唯一还是租户内唯一 — **待确认**
+2. `status` 字段枚举是否已在 DictService 中存在 — **待确认**
+```
+
+---
+
 ## 8. 最小 `tasks.md` 示例
 
 ```md
