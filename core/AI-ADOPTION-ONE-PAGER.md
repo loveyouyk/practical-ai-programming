@@ -77,6 +77,16 @@ flowchart TD
 
 ---
 
+## 上手练习
+
+如果你想通过实操来学习这套方法，直接进入 Demo 项目：
+
+- `demo-brownfield-project/README.md` — 包含模拟历史系统、10 份实战提示词、完整产出物和 11 个碰撞点分析
+
+推荐方式：先读 Demo 的 `prompts/` 目录，跟着提示词走一遍，再对照 `DEMO-WALKTHROUGH.md` 看碰撞点。
+
+---
+
 ## 统一推荐起手顺序（所有角色通用）
 
 | 顺序 | 文档 | 一句话说明 |

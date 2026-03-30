@@ -329,6 +329,12 @@
    `execution/BROWNFIELD-CHANGE-UPDATE-WORKFLOW.md`
 7. 结论纪要：
    `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
+8. M 级独立执行指南：
+   `execution/M-MEDIUM-EXECUTION-GUIDE.md`
+9. 实战碰撞验证：
+   `review/DEMO-COLLISION-REPORT.md`
+   `demo-brownfield-project/README.md`
+   `demo-brownfield-project/prompts/`（10 份实战提示词）
 
 一句话总结：
 

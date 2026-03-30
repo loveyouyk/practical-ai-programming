@@ -107,13 +107,25 @@
 12. `execution/AI-ADOPTION-METRICS-GUIDE.md`
     定位：推广落地效果度量指南。
 
-13. `.cursor/rules/*.mdc`
-    定位：项目规则基线。
+13. `execution/M-MEDIUM-EXECUTION-GUIDE.md`
+    定位：M-Medium 独立执行指南（端到端 8 步全流程）。
 
-13. `openspec/changes/project-management/`
+14. `execution/templates/triage-quick-card.md`
+    定位：分流快速检查卡（30 秒定级）。
+
+15. `execution/templates/m-medium-approval-checklist.md`
+    定位：M 级审批 Checklist（可打勾模板）。
+
+16. `execution/templates/m-medium-evidence-template.md`
+    定位：M 级结构化证据精简模板（4 字段版）。
+
+17. `.cursor/rules/*.mdc`
+    定位：项目规则基线（含 QUIRK 登记簿）。
+
+18. `openspec/changes/project-management/`
     定位：主案例 OpenSpec 示例 change。
 
-14. `openspec/changes/todo-list/`
+19. `openspec/changes/todo-list/`
     定位：历史参考示例 change。
 
 ---
@@ -128,9 +140,28 @@
 2. `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
    定位：最终结论纪要。
 
+3. `review/EXPERT-TECHNICAL-REVIEW-REPORT.md`
+   定位：专家技术评审报告。
+
+4. `review/DEMO-COLLISION-REPORT.md`
+   定位：Demo 实战碰撞报告。
+
 ---
 
-## 6. 历史层 `history/`
+## 6. Demo 实战验证层 `demo-brownfield-project/`
+
+这层解决"方法论的实操验证和团队培训复盘"。
+
+1. `demo-brownfield-project/README.md` — 总索引和复盘路线图
+2. `demo-brownfield-project/DEMO-WALKTHROUGH.md` — 逐环节走查记录
+3. `demo-brownfield-project/prompts/` — 10 份实战验证提示词集
+4. `demo-brownfield-project/openspec/` — Demo 案例的 OpenSpec 产出物
+5. `demo-brownfield-project/artifacts/` — 验收矩阵、证据、QUIRK 登记簿
+6. `demo-brownfield-project/backend/` + `frontend/` — 模拟历史系统代码
+
+---
+
+## 7. 历史层 `history/`
 
 这层不属于当前正式资产，只用于追溯演进过程。
 
