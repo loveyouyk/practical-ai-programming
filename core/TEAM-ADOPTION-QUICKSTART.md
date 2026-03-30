@@ -54,26 +54,26 @@
 
 如果你是第一次自己用这套方法，最短路径建议是：
 
-1. 先看 `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. 再看 `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
-3. 再看 `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
-4. 然后按 `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 巡查项目
-5. 最后再进入 `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` 或 `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+1. 先看 `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. 再看 `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
+3. 再看 `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+4. 然后按 `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 巡查项目
+5. 最后再进入 `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` 或 `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
 
 ## 5. 第一次推广先读哪 5 份
 
 如果你只想把团队带起来，优先读这 5 份：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
-4. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-5. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+4. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+5. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 
 如果团队要看一个完整参考，再补：
 
-6. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-7. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+6. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+7. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
 
 ## 6. 推广时最容易犯的错
 

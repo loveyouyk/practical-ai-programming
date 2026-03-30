@@ -26,9 +26,9 @@
 
 在使用本文档前，建议先补看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 因为本文档主要解释的是“完整方法如何成立”，而不是代替治理手册去做所有需求的分流判断，也不是直接替代执行提示词手册去推进开发。
 
@@ -118,7 +118,7 @@
 如果当前环境无法直接使用这些能力，不要假装“已经执行过”。  
 请直接参考：
 
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 并按其中的 fallback 方式降级执行。
 
@@ -136,7 +136,7 @@
 不是所有需求都应该直接套用本文档的完整流程。  
 正式执行前，应先按：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 判断当前需求属于哪条治理路径。
 

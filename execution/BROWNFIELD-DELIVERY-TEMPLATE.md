@@ -6,7 +6,7 @@
 
 如果你不确定当前环境能否直接执行 `/opsx-*` 或 Superpowers，请先补看：
 
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ---
 
@@ -66,7 +66,7 @@
 - Archive：`/opsx-archive` / 人工判断
 
 ### fallback 依据文档
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 ```
 
 ---
@@ -134,9 +134,9 @@
 
 ```md
 ### 关联规则文档
-- `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-- `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+- `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 - `.cursor/rules/*.mdc`
 ```
 
@@ -441,7 +441,7 @@
 - Verify：`/opsx-verify`
 
 ### fallback 依据文档
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ## 变更目标
 
@@ -514,7 +514,7 @@
 - 结果：通过
 
 ### 验收矩阵
-- 路径：`knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+- 路径：`execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 - 结论：部分达标
 ```
 

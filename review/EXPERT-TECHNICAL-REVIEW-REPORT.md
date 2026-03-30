@@ -124,7 +124,7 @@
 
 **问题描述：**
 
-`README.md` 及所有文档中引用路径均使用 `knowledge/core/...`、`knowledge/execution/...` 等形式，但实际仓库目录结构中不存在 `knowledge/` 这一级目录。实际文件直接位于 `core/`、`execution/`、`review/`、`history/` 下。
+`README.md` 及所有文档中引用路径均使用 `core/...`、`execution/...` 等形式，但实际仓库目录结构中不存在 `knowledge/` 这一级目录。实际文件直接位于 `core/`、`execution/`、`review/`、`history/` 下。
 
 **影响：**
 

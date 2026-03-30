@@ -13,19 +13,19 @@
 
 此时应先返回：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 在使用本手册前，建议先补看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-3. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+3. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
 
 如果你不确定当前环境是否能直接使用 `/opsx-*` 或某些 Superpowers 能力，请先补看：
 
-4. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+4. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ---
 
@@ -49,7 +49,7 @@
 
 正式进入第 7 步前，应先按：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 判断当前需求属于哪条路径：
 

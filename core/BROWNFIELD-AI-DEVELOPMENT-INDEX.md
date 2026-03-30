@@ -1,7 +1,7 @@
 # 棕地项目 AI 开发文档索引
 
 > 目标：作为这套资料的“流程入口页”，只回答一个问题: 现在该从哪份文档开始。  
-> 使用原则：这份文档负责“起步导航”，不负责列出全部资产；如果你要看全量清单，请转到 `knowledge/core/AI-ADOPTION-DOCUMENT-CATALOG.md`。  
+> 使用原则：这份文档负责“起步导航”，不负责列出全部资产；如果你要看全量清单，请转到 `core/AI-ADOPTION-DOCUMENT-CATALOG.md`。  
 > 使用边界：这份索引不替代治理手册、主案例导航、执行提示词或验收模板；它只负责把你导向下一份该看的文档。
 
 补充说明：
@@ -14,12 +14,12 @@
 
 建议先按这个顺序进入：
 
-1. `knowledge/core/TEAM-ADOPTION-QUICKSTART.md`
-2. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`：如果工具环境不确定，先确认可用能力
-4. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-5. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
-6. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+1. `core/TEAM-ADOPTION-QUICKSTART.md`
+2. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`：如果工具环境不确定，先确认可用能力
+4. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+5. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+6. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 
 ---
 
@@ -41,7 +41,7 @@
 
 先看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 先判断当前需求属于：
 
@@ -63,10 +63,10 @@
 
 先看：
 
-1. `knowledge/execution/BROWNFIELD-QUICKSTART-CHECKLIST.md`
-2. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
-4. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+1. `execution/BROWNFIELD-QUICKSTART-CHECKLIST.md`
+2. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+4. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
 
 适用目标：
 
@@ -78,24 +78,24 @@
 
 先看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
 
 然后根据分流进入：
 
-1. `M-Medium`：参考 `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
-2. `L / High Risk`：进入 `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+1. `M-Medium`：参考 `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+2. `L / High Risk`：进入 `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
 
 如果工具环境不确定，再补看：
 
-3. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+3. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ## 3.3 我只想快速开工
 
 直接看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/execution/BROWNFIELD-QUICKSTART-CHECKLIST.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `execution/BROWNFIELD-QUICKSTART-CHECKLIST.md`
 
 说明：
 
@@ -106,13 +106,13 @@
 
 直接看：
 
-1. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-2. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+1. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+2. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
 3. `openspec/changes/project-management/`
 
 如果你要对比中型快车道，再补看：
 
-4. `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+4. `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
 
 这里的 `project-management` 应理解为“参考主案例”：
 
@@ -123,9 +123,9 @@
 
 直接看：
 
-1. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
-2. `knowledge/execution/BROWNFIELD-DELIVERY-TEMPLATE.md`
-3. `knowledge/review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
+1. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+2. `execution/BROWNFIELD-DELIVERY-TEMPLATE.md`
+3. `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
 
 ---
 
@@ -135,26 +135,26 @@
 
 优先看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
-3. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+3. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
 
 ## 4.2 开发成员
 
 优先看：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 2. `.cursor/rules/*.mdc`
-3. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
-4. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+3. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+4. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
 
 ## 4.3 测试 / 验收 / 交付负责人
 
 优先看：
 
-1. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
-2. `knowledge/execution/BROWNFIELD-DELIVERY-TEMPLATE.md`
-3. `knowledge/review/EXPERT-REVIEW-PACK-LIST.md`
+1. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+2. `execution/BROWNFIELD-DELIVERY-TEMPLATE.md`
+3. `review/EXPERT-REVIEW-PACK-LIST.md`
 
 ---
 
@@ -162,11 +162,11 @@
 
 建议保留这 5 份：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-3. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
-4. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
-5. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+3. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+4. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+5. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 
 ---
 
@@ -174,7 +174,7 @@
 
 请转到：
 
-1. `knowledge/core/AI-ADOPTION-DOCUMENT-CATALOG.md`
+1. `core/AI-ADOPTION-DOCUMENT-CATALOG.md`
 
 这份 `Catalog` 才是：
 
@@ -191,20 +191,20 @@
 
 | 步骤 | 目标 | 主要文档 |
 |---|---|---|
-| 0 | 判断当前需求走哪条路径 | `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md` |
-| 1 | 了解整套资料从哪里开始 | `knowledge/README.md` `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md` |
-| 2 | 确认工具环境和 fallback | `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md` |
-| 3 | 巡查历史项目现状 | `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` |
-| 4 | 提炼项目规则基线 | `.cursor/rules/*.mdc` `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` |
-| 5 | 选择参考案例或最小示例 | `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md` `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md` `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md` |
-| 6 | 理解完整方法如何成立 | `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md` |
-| 7 | 需求澄清与 explore | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
-| 8 | 形成 OpenSpec artifacts | `openspec/changes/project-management/` `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
-| 9 | 生成 Superpowers 实施计划 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
-| 10 | 多角色前后端开发 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
-| 11 | 联调与测试 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` |
-| 12 | Git / PR / 合并 / 发布准备 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `knowledge/execution/BROWNFIELD-DELIVERY-TEMPLATE.md` |
-| 13 | 最终验证 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` |
-| 14 | 上线执行 | `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `knowledge/execution/BROWNFIELD-DELIVERY-TEMPLATE.md` |
-| 15 | 归档与沉淀 | `knowledge/execution/BROWNFIELD-DELIVERY-TEMPLATE.md` `knowledge/review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md` |
+| 0 | 判断当前需求走哪条路径 | `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md` |
+| 1 | 了解整套资料从哪里开始 | `README.md` `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md` |
+| 2 | 确认工具环境和 fallback | `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md` |
+| 3 | 巡查历史项目现状 | `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` |
+| 4 | 提炼项目规则基线 | `.cursor/rules/*.mdc` `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` |
+| 5 | 选择参考案例或最小示例 | `core/PROJECT-MANAGEMENT-DOC-MAP.md` `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md` `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md` |
+| 6 | 理解完整方法如何成立 | `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md` |
+| 7 | 需求澄清与 explore | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
+| 8 | 形成 OpenSpec artifacts | `openspec/changes/project-management/` `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
+| 9 | 生成 Superpowers 实施计划 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
+| 10 | 多角色前后端开发 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` |
+| 11 | 联调与测试 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` |
+| 12 | Git / PR / 合并 / 发布准备 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `execution/BROWNFIELD-DELIVERY-TEMPLATE.md` |
+| 13 | 最终验证 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` |
+| 14 | 上线执行 | `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` `execution/BROWNFIELD-DELIVERY-TEMPLATE.md` |
+| 15 | 归档与沉淀 | `execution/BROWNFIELD-DELIVERY-TEMPLATE.md` `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md` |
 

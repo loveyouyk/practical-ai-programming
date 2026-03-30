@@ -31,8 +31,8 @@
 
 | 层级 | 产物 | 作用 |
 |---|---|---|
-| 巡查层 | `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` | 说明如何从项目现状抽取基线 |
-| 说明层 | `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` | 说明如何在不同阶段写提示词 |
+| 巡查层 | `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` | 说明如何从项目现状抽取基线 |
+| 说明层 | `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` | 说明如何在不同阶段写提示词 |
 | 执行层 | `.cursor/rules/*.mdc` | 让 AI 在后续任务里持续遵循规则 |
 
 ---

@@ -5,11 +5,11 @@
 
 在使用本案例前，建议先补看：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 如果你不确定当前环境能否直接使用 `/opsx-*` 或 Superpowers，请先补看：
 
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ---
 
@@ -80,7 +80,7 @@
 
 按：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 的口径，这个主案例默认更适合作为 `L / High Risk` 示例，而不是 `S-Low` 或通用默认路径。  
 原因不是功能名字“大”，而是它天然同时触及：

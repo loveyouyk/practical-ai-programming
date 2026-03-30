@@ -6,7 +6,7 @@
 
 在使用本矩阵前，建议先补看：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 ---
 
@@ -47,7 +47,7 @@
 不是所有需求都需要同样强度的矩阵证据。  
 建议按：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 先判断当前需求属于：
 

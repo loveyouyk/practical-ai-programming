@@ -9,11 +9,11 @@
 
 如果你是第一次进入这套体系，建议按这个顺序继续看：
 
-1. `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`：先看整套资料总入口；
-2. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`：如果工具环境不确定，先确认 `/opsx-*` 和 Superpowers 的可用性；
-3. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`：再进入项目管理主案例导航；
-4. `knowledge/core/AI-ADOPTION-DOCUMENT-CATALOG.md`：需要盘点全量资料时再看；
-5. `knowledge/review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`：需要理解治理升级背景时再看。
+1. `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`：先看整套资料总入口；
+2. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`：如果工具环境不确定，先确认 `/opsx-*` 和 Superpowers 的可用性；
+3. `core/PROJECT-MANAGEMENT-DOC-MAP.md`：再进入项目管理主案例导航；
+4. `core/AI-ADOPTION-DOCUMENT-CATALOG.md`：需要盘点全量资料时再看；
+5. `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`：需要理解治理升级背景时再看。
 
 ---
 
@@ -54,10 +54,10 @@
 
 它不替代：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md` 的完整方法论；
-2. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 的巡查与提炼方法；
-3. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` 与 `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` 的提示词手册；
-4. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` 的验收管理；
+1. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md` 的完整方法论；
+2. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 的巡查与提炼方法；
+3. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md` 与 `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` 的提示词手册；
+4. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md` 的验收管理；
 5. 仓库本身的 Git、PR、测试、发布流程。
 
 ## 2.3 推荐使用顺序
@@ -295,7 +295,7 @@ AI 可以辅助生成草案、计划、代码和检查清单，但不能单独�
 优先使用：
 
 1. `.cursor/rules/*.mdc`
-2. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+2. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
 3. 现有 PR 与最小验证证据
 
 一般不强制使用：
@@ -309,25 +309,25 @@ AI 可以辅助生成草案、计划、代码和检查清单，但不能单独�
 优先使用：
 
 1. 本治理手册
-2. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
-3. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+2. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+3. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
 4. 最小 OpenSpec change
-5. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+5. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 
 按需参考：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+1. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
 2. `openspec/changes/project-management/`
 
 ## 6.3 `L / High Risk`
 
 优先使用：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
-2. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-3. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
-4. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
-5. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+1. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+2. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+3. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+4. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+5. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 6. `openspec/changes/project-management/`
 
 ---
@@ -422,7 +422,7 @@ AI 可以辅助生成草案、计划、代码和检查清单，但不能单独�
 
 ## 7.8 与巡查 Playbook 的关系
 
-`knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 解决的是：
+`execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md` 解决的是：
 
 1. 如何巡查项目；
 2. 如何从项目中抽出规则；
@@ -661,8 +661,8 @@ Reviewer 不是看“有没有贴日志”，而是看：
 后续对现有资料的改造建议按这个顺序进行：
 
 1. 先把本治理手册作为治理总依据；
-2. 再把 `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md` 和 `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md` 接入分流入口；
-3. 再把 `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`、`knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`、`knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` 接入新的治理口径；
+2. 再把 `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md` 和 `core/PROJECT-MANAGEMENT-DOC-MAP.md` 接入分流入口；
+3. 再把 `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`、`execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`、`execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md` 接入新的治理口径；
 4. 最后再升级案例文档、验收矩阵和主示例。
 
 ---

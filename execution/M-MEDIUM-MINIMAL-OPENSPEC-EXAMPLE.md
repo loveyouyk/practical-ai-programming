@@ -16,7 +16,7 @@
 
 建议先补看：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 ---
 

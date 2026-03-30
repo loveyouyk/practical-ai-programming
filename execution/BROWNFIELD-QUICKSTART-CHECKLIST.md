@@ -16,7 +16,7 @@
 
 如果你不确定当前环境是否能直接使用 `/opsx-*` 或 Superpowers，请先看：
 
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ---
 
@@ -443,8 +443,8 @@
 
 执行过程中如需参考主案例，优先看：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
-2. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+1. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+2. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
 3. `openspec/changes/project-management/`
 
 ---

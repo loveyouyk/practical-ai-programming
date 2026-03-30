@@ -17,10 +17,10 @@
 
 ## 当前历史资料
 
-1. `knowledge/history/AI-ADOPTION-DISCUSSION-PROPOSAL.md`
+1. `history/AI-ADOPTION-DISCUSSION-PROPOSAL.md`
    说明：AI 编程落地分流治理方案讨论稿。
    当前状态：已被：
-   - `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-   - `knowledge/review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
+   - `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+   - `review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
 
    这两份正式文档吸收，不再作为主层正式资料使用。

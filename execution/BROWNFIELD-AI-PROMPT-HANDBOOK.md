@@ -5,11 +5,11 @@
 
 在复制任何提示词前，建议先补看：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 如果你不确定当前环境能否直接执行 `/opsx-*` 或 Superpowers，请先补看：
 
-- `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+- `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 ---
 
@@ -53,7 +53,7 @@
 这份手册提供的是“棕地项目可复用提示词资产”，但不代表所有提示词都适合所有需求。  
 在实际使用前，应先按：
 
-- `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+- `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
 
 判断当前需求属于：
 

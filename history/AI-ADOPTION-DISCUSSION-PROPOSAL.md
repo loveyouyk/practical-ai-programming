@@ -1,7 +1,7 @@
 # AI 编程落地分流治理方案讨论稿
 
-> 当前状态：历史讨论稿，已归档到 `knowledge/history/`，不作为当前正式治理口径。  
-> 正式口径请优先参考：`knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`、`knowledge/review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
+> 当前状态：历史讨论稿，已归档到 `history/`，不作为当前正式治理口径。  
+> 正式口径请优先参考：`core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`、`review/AI-ADOPTION-FINAL-CONCLUSION-MINUTES.md`
 
 > 文档性质：内部讨论稿，不是最终制度文件。  
 > 目标：在不推翻现有 `OpenSpec + Superpowers + 棕地规则基线` 体系的前提下，解决“流程过重、认知负荷前移、规则维护成本高”三个真实推广问题。  

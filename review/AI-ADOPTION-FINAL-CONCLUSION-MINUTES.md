@@ -9,10 +9,10 @@
 
 如果你要把这份纪要和当前资料体系一起看，建议继续参考：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`：看当前已经落地的治理总手册；
-2. `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`：看团队日常入口如何使用；
-3. `knowledge/core/AI-ADOPTION-DOCUMENT-CATALOG.md`：看当前最终形态资料清单；
-4. `knowledge/review/EXPERT-REVIEW-PACK-LIST.md`：看对外专家评审包怎么发。
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`：看当前已经落地的治理总手册；
+2. `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`：看团队日常入口如何使用；
+3. `core/AI-ADOPTION-DOCUMENT-CATALOG.md`：看当前最终形态资料清单；
+4. `review/EXPERT-REVIEW-PACK-LIST.md`：看对外专家评审包怎么发。
 
 ---
 
@@ -186,17 +186,17 @@ M 级快车道应保留，但审批对象至少包括：
 
 本轮核查的核心文档包括：
 
-1. `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
-3. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-4. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
-5. `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
-6. `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
-7. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
-8. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
-9. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
-10. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
-11. `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+1. `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
+3. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+4. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+5. `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+6. `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+7. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+8. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+9. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+10. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+11. `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
 12. `openspec/changes/project-management/`
 
 总体判断：
@@ -217,8 +217,8 @@ M 级快车道应保留，但审批对象至少包括：
 
 在前述结论基础上，当前体系已新增并接入：
 
-1. `knowledge/core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
-2. `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+1. `core/AI-ADOPTION-GOVERNANCE-HANDBOOK.md`
+2. `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
 
 它们分别解决：
 
@@ -231,7 +231,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 以下建议按文档逐份给出。
 
-## 7.1 `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
+## 7.1 `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
 
 当前价值：
 
@@ -248,7 +248,7 @@ M 级快车道应保留，但审批对象至少包括：
 1. 在团队试点后观察入口是否仍有理解门槛；
 2. 必要时继续压缩首次阅读路径。
 
-## 7.2 `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
+## 7.2 `core/PROJECT-MANAGEMENT-DOC-MAP.md`
 
 当前价值：
 
@@ -264,7 +264,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 在线下培训或试点后观察导航是否还需要进一步简化。
 
-## 7.3 `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+## 7.3 `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
 
 当前价值：
 
@@ -280,7 +280,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 在试点后继续观察是否还需要进一步压缩非高风险读法。
 
-## 7.4 `knowledge/execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
+## 7.4 `execution/AI-WORKFLOW-TOOLING-PREREQUISITES.md`
 
 当前价值：
 
@@ -298,7 +298,7 @@ M 级快车道应保留，但审批对象至少包括：
 2. 补充“证据与 revision / PR / CI run 的绑定建议”；
 3. 补充轻流程和完整流程下工具使用差异。
 
-## 7.5 `knowledge/execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
+## 7.5 `execution/BROWNFIELD-RULE-BASELINE-PLAYBOOK.md`
 
 当前价值：
 
@@ -322,7 +322,7 @@ M 级快车道应保留，但审批对象至少包括：
    - 日常开发默认消费 rules
    - 不是每个需求都重新提炼基线
 
-## 7.6 `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+## 7.6 `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
 
 当前价值：
 
@@ -338,7 +338,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 在真实项目里继续检验这些起手话术是否足够稳定、易用。
 
-## 7.7 `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+## 7.7 `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
 
 当前价值：
 
@@ -354,7 +354,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 保持它的完整流程定位，不再把它当成所有需求默认入口。
 
-## 7.8 `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+## 7.8 `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
 
 当前价值：
 
@@ -370,7 +370,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 在团队试点中验证大家是否能正确区分主案例与中型示例的用途。
 
-## 7.9 `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+## 7.9 `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 
 当前价值：
 
@@ -386,7 +386,7 @@ M 级快车道应保留，但审批对象至少包括：
 
 1. 在真实 PR 和验收场景中继续检验矩阵字段是否足够可填写。
 
-## 7.10 `knowledge/execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
+## 7.10 `execution/M-MEDIUM-MINIMAL-OPENSPEC-EXAMPLE.md`
 
 当前价值：
 
@@ -446,8 +446,8 @@ M 级快车道应保留，但审批对象至少包括：
 
 优先改：
 
-1. `knowledge/core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
-2. `knowledge/core/PROJECT-MANAGEMENT-DOC-MAP.md`
+1. `core/BROWNFIELD-AI-DEVELOPMENT-INDEX.md`
+2. `core/PROJECT-MANAGEMENT-DOC-MAP.md`
 
 目标：
 
@@ -458,9 +458,9 @@ M 级快车道应保留，但审批对象至少包括：
 
 优先改：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
-2. `knowledge/execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
-3. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
+1. `execution/PROJECT-MANAGEMENT-OPENSPEC-SUPERPOWERS-SPEC-GUIDE.md`
+2. `execution/BROWNFIELD-AI-PROMPT-HANDBOOK.md`
+3. `execution/PROJECT-MANAGEMENT-BROWNFIELD-EXECUTION-PROMPTS.md`
 
 目标：
 
@@ -471,8 +471,8 @@ M 级快车道应保留，但审批对象至少包括：
 
 优先改：
 
-1. `knowledge/execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
-2. `knowledge/execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
+1. `execution/PROJECT-MANAGEMENT-BROWNFIELD-PRACTICAL-CASE.md`
+2. `execution/BROWNFIELD-FEATURE-ACCEPTANCE-MATRIX.md`
 3. 必要时补充新的 M 级 OpenSpec 示例
 
 目标：
