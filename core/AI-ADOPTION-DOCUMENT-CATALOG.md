@@ -62,6 +62,9 @@
 5. `core/AI-ADOPTION-DOCUMENT-CATALOG.md`
    定位：全量资产清单。
 
+6. `core/AI-ADOPTION-ONE-PAGER.md`
+   定位：一页纸速查卡，30 秒找到该读什么、该走哪条路径。
+
 ---
 
 ## 4. 执行层 `execution/`
