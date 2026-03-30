@@ -1,0 +1,35 @@
+---
+description: 项目 QUIRK 登记簿 — 记录历史项目中的非直觉行为，防止 AI 按通用最佳实践踩坑
+globs:
+alwaysApply: true
+---
+
+# QUIRK 登记簿
+
+> QUIRK = 历史项目中的非直觉设计决策。它们不在任何文档中记录，AI 完全不知道。
+> 维护方式：一线开发发现后随时补充，门槛低于规则更新，不需要走正式 PR 审批。
+
+## 组件 QUIRK
+
+| 组件 | QUIRK | 正确应对 |
+|---|---|---|
+| SearchForm | 重置按钮只触发 @reset，不自动触发 @search | 在 @reset 回调中手动调用查询方法 |
+| BaseTable | 默认 pageSize=20，不是 10 | 查询参数、后端默认值和 API 文档都对齐为 20 |
+| FormDialog | confirm 事件不自动关闭弹窗 | API 成功后手动设 visible=false |
+| ExportButton | 不自动读取父组件的筛选状态 | 必须显式绑定 :exportParams="queryForm" |
+
+## 服务 QUIRK
+
+| 服务 | QUIRK | 正确应对 |
+|---|---|---|
+| DictService | getDictByKey() 返回的 key 是 String 类型，但 DB 存 Integer | 前端比较时用 String() 转换 |
+| request.js | 错误处理通过 window.__toast 全局弹出，不返回错误对象 | 需要在业务代码中捕获错误时，要在拦截器中加 flag |
+
+## 数据约定 QUIRK
+
+| 约定 | QUIRK | 正确应对 |
+|---|---|---|
+| 字段翻译 | 后端不返回 xxxName 翻译字段，前端用 DictService 本地翻译 | 新模块严禁在后端拼接 statusName / typeName 等 |
+| 导出文件名 | 必须符合 {module}_{timestamp}.xlsx 格式 | 调用 ExportUtil 时按规范传 fileName |
+| pageSize 对齐 | 前端 BaseTable 默认 20 + 后端接口默认 20 + 查询参数默认 20 | 三处必须一致 |
+
